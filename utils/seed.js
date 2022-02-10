@@ -20,7 +20,7 @@ connection.once('open', async () => {
   const reactions = getRandomReactions(20);
 
   
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 75; i++) {
     const fullName = getRandomName();
     const first = fullName.split(' ')[0];
     const last = fullName.split(' ')[1];

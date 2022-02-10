@@ -13,7 +13,9 @@
 ## Usage
         - This application is used in the terminal to initiate and previewed in Insomnia.
 ## Screenshot
+* Link to the video https://drive.google.com/file/d/1L5y4P0yewzFelnTpQhT66Mf1qMuHE45i/view?usp=sharing
 
+[!Screenshot](images/seedingComplete.jpg)
 ## Credits
 
 ## License
