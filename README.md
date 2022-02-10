@@ -15,7 +15,7 @@
 ## Screenshot
 * Link to the video https://drive.google.com/file/d/1L5y4P0yewzFelnTpQhT66Mf1qMuHE45i/view?usp=sharing
 
-[!Screenshot](images/seedingComplete.jpg)
+![Screenshot](images/seedingComplete.jpg)
 ## Credits
 
 ## License
