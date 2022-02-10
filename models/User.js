@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const assignmentSchema = require('./Assignment');
+const reactionSchema = require('./Reactions');
 
 // Schema to create Student model
 const studentSchema = new Schema(
@@ -19,7 +19,7 @@ const studentSchema = new Schema(
       required: true,
       max_length: 50,
     },
-    assignments: [assignmentSchema],
+    reactions: [reactionSchema],
   },
   {
     toJSON: {
