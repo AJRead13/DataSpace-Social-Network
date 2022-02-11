@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const moment = require('moment');
 
 // Schema to create a course model
 const thoughtsSchema = new Schema(
@@ -10,6 +11,11 @@ const thoughtsSchema = new Schema(
     thoughtBody: {
       type: String,
       default: "Please enter text here",
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+      get: (val) => moment(val).format("YYYY MMM DD [at] HH:MM")
     },
     users: [
       {
