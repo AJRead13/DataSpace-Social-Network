@@ -40,6 +40,7 @@ connection.once('open', async () => {
  
   await Thoughts.collection.insertOne({
     thoughtName: 'StarFleet',
+    thoughtBody: "Starfleet is the best of the best, sir..",
     inPerson: false,
     users: [...users],
   });
